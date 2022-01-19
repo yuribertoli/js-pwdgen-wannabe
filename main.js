@@ -1,4 +1,11 @@
 alert("Preparati per lo spam!!");
+alert("è appena cominciato");
+alert("adesso iniziamo");
+alert("noioso vero?");
+alert("ok ultimo");
+alert("scherzavo");
+alert("va bene basta");
+
 
 const nome = prompt("Qual'è il tuo nome?");
 const cognome = prompt("Qual'è il tuo cognome?");
