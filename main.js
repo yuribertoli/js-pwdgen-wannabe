@@ -31,7 +31,8 @@ document.getElementById("family-members").innerHTML = `In famiglia siete ${total
 console.log(yourAge);
 console.log(totalFamily);
 
+let totalOfStuff = "Ricapitolando... La tua password è " + chiave + ", sei nato nel " + yearOfBirthQuestion + ", quindi hai " + yourAge + " anni e in famiglia siete " + totalFamily + " persone giusto?";
 
-alert("Ricapitolando... La tua password è " + chiave + ", sei nato nel " + yearOfBirthQuestion + ", quindi hai " + yourAge + " anni e in famiglia siete " + totalFamily + " persone giusto?");
+alert(totalOfStuff);
 
-document.getElementById("ultimo").innerHTML = "Ricapitolando... La tua password è " + chiave + ", sei nato nel " + yearOfBirthQuestion + ", quindi hai " + yourAge + " anni e in famiglia siete " + totalFamily + " persone giusto?";
+document.getElementById("ultimo").innerHTML = totalOfStuff;
