@@ -16,7 +16,7 @@ const yourself = 1;
 let familyMembers = prompt("Da quante altre persone è composta la tua famiglia oltre a te?");
 familyMembers = parseInt(familyMembers);
 let totalFamily = yourself + familyMembers;
-document.getElementById("boh").innerHTML = `In famiglia siete ${totalFamily} persone`
+document.getElementById("family-members").innerHTML = `In famiglia siete ${totalFamily} persone`;
 
 
 console.log(yourAge);
